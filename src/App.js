@@ -7,13 +7,14 @@ import Welcome from './Welcome';
 import Like from './Like'
 import Friends from './Friends'
 import Todos from './Todos'
-import Library from './Library'
+import Library from './library/Library'
+import Users from './Users'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Welcome name="Varma" password="123456"/>
+        <h1>Batch 15 Library</h1>
       </header>
       <Library/>
     </div>
